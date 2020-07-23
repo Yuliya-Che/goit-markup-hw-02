@@ -1,7 +1,8 @@
 /*Добавляет задний фон секции для более легкого восприятия заголовка и кнопки*/
 .hero {
-  background: rgba(47, 48, 58, 0.8);
+  background-color: rgba(47, 48, 58, 0.8);
 }
+
 /*Стилизирует h1-заголовок страницы*/
 .page-title {
   font-weight: 900;
@@ -20,7 +21,8 @@
   line-height: 1.875;
   letter-spacing: 0.06em;
   color: var(--total-white);
-  background: var(--accent-color);
+  background-color: var(--accent-color);
+  border-color: transparent;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   position: relative;
@@ -64,11 +66,11 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--total-white);
-  background: rgba(47, 48, 58, 0.8);
+  background-color: rgba(47, 48, 58, 0.8);
 }
 /*Добавляет фон секции с командой студии*/
 .team {
-  background: var(--light-background);
+  background-color: var(--light-background-color);
 }
 /*Стилизирует h3-заголовки секции с именами членов команды студии*/
 .team-member-name {

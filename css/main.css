@@ -1,16 +1,17 @@
 /*Вводит переменные*/
 :root {
-  --accent-color: #2196f3;
+  --light-background-color: #f5f4fa;
   --primary-color: #212121;
   --secondary-color: #757575;
+  --accent-color: #2196f3;
   --total-black: #000000;
   --total-white: #ffffff;
-  --light-background: #f5f4fa;
 }
 /* Добавляет шрифт Roboto всей странице*/
 body {
   font-family: Roboto, sans-serif;
   font-style: normal;
+  background-color: var(--total-white);
 }
 /* Убирает подчеркивание со всех ссылок на странице*/
 a {
@@ -52,6 +53,12 @@ address {
   letter-spacing: 0.02em;
   color: var(--primary-color);
 }
+
+.menu-list .menu-link.current {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
 /*Присваивает шрифт ссылкам контактам в шапке и базовые свойства шрифта*/
 .menu-contact-link {
   font-weight: 500;
